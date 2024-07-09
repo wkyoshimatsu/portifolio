@@ -1,6 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
+}
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.conteudo {
+    width: 593px;
 }
 h1 {
     font: 36px Krona One;
@@ -8,12 +24,16 @@ h1 {
 .titulo-destaque {
     color: #22D4FD;
 }
-/*p {
-    
-}*/
+p {
+    font: 24px Montserrat;
+}
 a {
+    width: 280px;
+    height: 79px;
     background-color: #22D4FD;
     color: #000000;
+    font: 24px Montserrat;
+    font-weight: bold;
 }
 /*img {
     
