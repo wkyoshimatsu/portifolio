@@ -5,7 +5,16 @@
     padding: 0;
 }
 
-header {
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -21,9 +30,9 @@ body {
 }
 
 .apresentacao {
-    padding: 10% 15%;
+    padding: 8% 15%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
 }
 
