@@ -5,6 +5,14 @@
     padding: 0;
 }
 
+header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
 body {
     height: 100vh;
     box-sizing: border-box;
@@ -60,11 +68,15 @@ body {
 
 .apresentacao__links__link {
     width: 378px;
-    
+        
     border-radius: 8px;
     border: 2px solid #22D4FD;
     
     padding: 21.5px 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
