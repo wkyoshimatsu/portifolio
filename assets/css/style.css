@@ -139,6 +139,13 @@ body {
 }
 
 @media screen and (max-width: 1400px){
+
+    body {
+        background-image: url(/assets/images/Código\ 1.png);
+        background-position: 0 61%;
+        background-repeat: repeat-x;
+    }
+
     .cabecalho {
         padding: 19%;
     }
