@@ -26,7 +26,7 @@
 
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -55,7 +55,7 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .titulo-destaque {
@@ -64,7 +64,7 @@ body {
 
 .apresentacao__conteudo__descricao {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -75,7 +75,7 @@ body {
     align-items: center;
     gap: 32px;
     
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     align-content: center;
 }
@@ -113,7 +113,7 @@ body {
     
     
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--cor-primaria);
     text-align: center;    
